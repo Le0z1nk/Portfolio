@@ -12,7 +12,18 @@ export default function Main() {
           </S.CaixaSobre>
           <S.CaixaHab>
             <S.TituloHab>Habilidades</S.TituloHab>
-            
+            <S.Caixaimghab>
+              <figure>
+                <img src="../html5.png" alt="html" />
+                <figcaption>HTML5</figcaption>
+              </figure>
+               <img src="../css3.png" alt="css" />
+               <img src="../git.png" alt="git" />
+               <img src="../npm.png" alt="npm" />
+               <img src="../JavaScript-logo.png" alt="javascript" />
+               <img src="../reactimg.png" alt="react" />
+               <img src="../styledcomponents.png" alt="styled components" />
+            </S.Caixaimghab>
           </S.CaixaHab>
         </S.Main>
         </>
