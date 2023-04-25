@@ -35,11 +35,19 @@ font-size: 2rem;
 color: white;
 cursor: pointer;
 transition: 0.5s;
+font-family: 'Raleway', sans-serif;
+img {
+    width: 2vw;
+}
 :hover {
     transform: scale(1.1);
 }
 @media (min-width: 201px) and (max-width: 500px) {
     font-size: 15px;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 `
 export const Menu = styled.button `
@@ -57,4 +65,7 @@ right: 2rem;
 export const LiMenu = styled.li `
 color: white;
 list-style: none;
+img {
+    width: 5vw;
+}
 `

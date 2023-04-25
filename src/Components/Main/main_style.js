@@ -1,35 +1,85 @@
 import styled from 'styled-components'
+import Fundo from "../Main/fundotec.jpg"
 
 export const Main = styled.main `
 display: flex;
 justify-content: space-evenly;
-height: 87vh;
-background-image: url("../Main/fundotec.jpg")
+background-image: url(${Fundo});
+background-position: center;
+background-size: 100%;
+background-color: gray;
+div {
+    color: white;
+}
+a {
+    color: white;
+}
+@media (min-width: 201px) and (max-width: 500px) {
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+`
+export const ImagemPrincipal = styled.div `
+
 `
 export const ImgFoto = styled.img `
 width: 23vw;
 height: 70vh;
 margin-top: 3rem;
+@media (min-width: 201px) and (max-width: 500px) {
+    width: 95vw;
+    height:  50vh;
+}
+`
+export const Copyright = styled.p `
+margin-top: 2rem;
 `
 export const CaixaSobre = styled.div `
 margin-top: 6rem;
+@media (min-width: 201px) and (max-width: 500px) {
+    position: relative;
+    bottom: 4rem;
+}
 `
 export const Titulo1 = styled.h1 `
 font-size: 3rem;
 padding-left: 7rem;
+color: white;
+font-family:
+font-family: 'Raleway', sans-serif;
+@media (min-width: 201px) and (max-width: 500px) {
+    position: relative;
+    right: 3rem;
+}
 `
 export const Paragrafo = styled.p `
 font-size: 1.5rem;
 margin-top: 1rem;
 width: 37vw;
 height: 6vh;
+color: white;
+font-family: 'Raleway', sans-serif;
+@media (min-width: 201px) and (max-width: 500px) {
+    width: 99vw;
+}
 `
 export const CaixaHab = styled.div `
 margin-top: 3rem;
 width: 33.5vw;
+border: solid;
+@media (min-width: 201px) and (max-width: 500px) {
+    width: 100vw;
+}
 `
 export const TituloHab = styled.h1 `
 font-size: 5rem;
+color: white;
+font-family: 'Raleway', sans-serif;
+@media (min-width: 201px) and (max-width: 500px) {
+    font-size: 4rem;
+    padding-left: 1rem;
+}
 `
 export const Caixaimghab = styled.div `
 display: flex;
@@ -43,6 +93,7 @@ img {
 figcaption {
     font-size: 12px;
     width: 6.7vw;
+    color: white;
 }
 `
 export const NomeHab1 = styled.figcaption `

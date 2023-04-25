@@ -19,6 +19,8 @@ export default function Header() {
                     <S.LiMenu><Link to="/">Início</Link></S.LiMenu>
                     <S.LiMenu><Link to="projetos">Projetos</Link></S.LiMenu>
                     <S.LiMenu>Currículo</S.LiMenu>
+                    <S.LiMenu><a href="https://www.linkedin.com/in/leonardo-amorim-de-sousa-1b7329251/"><img src="../linkedinlogo.png" alt="logolinkedin" /></a></S.LiMenu>
+                    <S.LiMenu><a href="https://github.com/Le0z1nk"><img src="../githublogo.png" alt="githublogo" /></a></S.LiMenu>
                 </ul>
             </nav>
         )
@@ -33,6 +35,8 @@ export default function Header() {
                 <S.HeaderLi><Link to="/">Início</Link></S.HeaderLi>
                 <S.HeaderLi><Link to="projetos">Projetos</Link></S.HeaderLi>
                 <S.HeaderLi>Currículo</S.HeaderLi>
+                <S.HeaderLi><a href="https://www.linkedin.com/in/leonardo-amorim-de-sousa-1b7329251/"><img src="../linkedinlogo.png" alt="logolinkedin" /></a></S.HeaderLi>
+                <S.HeaderLi><a href="https://github.com/Le0z1nk"><img src="../githublogo.png" alt="githublogo" /></a></S.HeaderLi>
             </S.HeaderUl>
         </S.Nav>
         <S.Menu onClick={() => {Menu()}}>{open === true ? "X" : "☰"}</S.Menu>
