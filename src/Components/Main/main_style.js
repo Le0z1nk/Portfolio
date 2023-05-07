@@ -6,7 +6,7 @@ display: flex;
 justify-content: space-evenly;
 background-image: url(${Fundo});
 background-position: center;
-background-size: 100%;
+background-size: 100% 100%;
 background-color: gray;
 div {
     color: white;
@@ -34,19 +34,23 @@ margin-top: 3rem;
 `
 export const Copyright = styled.p `
 margin-top: 2rem;
+@media (min-width: 201px) and (max-width: 500px) {
+    position: relative;
+    top: 35.5rem;
+    left: 0.6rem;
+}
 `
 export const CaixaSobre = styled.div `
 margin-top: 6rem;
 @media (min-width: 201px) and (max-width: 500px) {
     position: relative;
-    bottom: 4rem;
+    bottom: 6rem;
 }
 `
 export const Titulo1 = styled.h1 `
 font-size: 3rem;
 padding-left: 7rem;
 color: white;
-font-family:
 font-family: 'Raleway', sans-serif;
 @media (min-width: 201px) and (max-width: 500px) {
     position: relative;
@@ -67,9 +71,10 @@ font-family: 'Raleway', sans-serif;
 export const CaixaHab = styled.div `
 margin-top: 3rem;
 width: 33.5vw;
-border: solid;
 @media (min-width: 201px) and (max-width: 500px) {
     width: 100vw;
+    position: relative;
+    bottom: 2rem;
 }
 `
 export const TituloHab = styled.h1 `
@@ -77,8 +82,8 @@ font-size: 5rem;
 color: white;
 font-family: 'Raleway', sans-serif;
 @media (min-width: 201px) and (max-width: 500px) {
-    font-size: 4rem;
-    padding-left: 1rem;
+    font-size: 3.5rem;
+    padding-left: 3rem;
 }
 `
 export const Caixaimghab = styled.div `
@@ -94,6 +99,11 @@ figcaption {
     font-size: 12px;
     width: 6.7vw;
     color: white;
+}
+@media (min-width: 201px) and (max-width: 500px) {
+    img {
+        width:84px;
+    }
 }
 `
 export const NomeHab1 = styled.figcaption `
