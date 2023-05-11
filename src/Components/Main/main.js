@@ -11,7 +11,7 @@ export default function Main() {
           </S.ImagemPrincipal>
           <S.CaixaSobre>
           <S.Titulo1>Sobre mim</S.Titulo1>
-          <S.Paragrafo> Olá! Me chamo Leonardo e sou programador Front-End.</S.Paragrafo>
+          <S.Paragrafo> Olá! Me chamo Leonardo e sou programador Front-End./email: leoamorim132@gmail.com</S.Paragrafo>
           </S.CaixaSobre>
           <S.CaixaHab>
             <S.TituloHab>Habilidades</S.TituloHab>
