@@ -7,7 +7,7 @@ justify-content: space-evenly;
 background-image: url(${Fundo});
 background-position: center;
 background-size: 100% 100%;
-background-color: gray;
+background-color: rgb(9, 11, 23);
 div {
     color: white;
 }
@@ -26,6 +26,7 @@ export const ImagemPrincipal = styled.div `
 export const ImgFoto = styled.img `
 width: 23vw;
 height: 70vh;
+border-radius: 5px;
 margin-top: 3rem;
 @media (min-width: 201px) and (max-width: 500px) {
     width: 95vw;
