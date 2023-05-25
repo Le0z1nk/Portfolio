@@ -14,22 +14,27 @@ export default function Header() {
     }
     const Navegacao = () => {
         return(
-            <nav>
+            <S.NavMenu>
                 <ul>
                     <S.LiMenu><Link to="/">Início</Link></S.LiMenu>
                     <S.LiMenu><Link to="projetos">Projetos</Link></S.LiMenu>
                     <S.LiMenu>Currículo</S.LiMenu>
+                    <div>
                     <S.LiMenu><a href="https://www.linkedin.com/in/leonardo-amorim-de-sousa-1b7329251/"><img src="../linkedinlogo.png" alt="logolinkedin" /></a></S.LiMenu>
                     <S.LiMenu><a href="https://github.com/Le0z1nk"><img src="../githublogo.png" alt="githublogo" /></a></S.LiMenu>
+                    </div>
                 </ul>
-            </nav>
+            </S.NavMenu>
         )
     }
     return(
         <>
         <BrowserRouter>
         <S.Header>
-         <Link to="/"><S.HeaderImg src="../Logo.png" alt="logo" /></Link> 
+            <div>
+         <Link to="/"><S.HeaderImg src="../Logo.png" alt="logo" /></Link>
+         <S.Menu onClick={() => {Menu()}}>{open === true ? "X" : "☰"}</S.Menu>
+         </div> 
         <S.Nav>
             <S.HeaderUl>
                 <S.HeaderLi><Link to="/">Início</Link></S.HeaderLi>
@@ -39,9 +44,8 @@ export default function Header() {
                 <S.HeaderLi><a href="https://github.com/Le0z1nk"><img src="../githublogo.png" alt="githublogo" /></a></S.HeaderLi>
             </S.HeaderUl>
         </S.Nav>
-        <S.Menu onClick={() => {Menu()}}>{open === true ? "X" : "☰"}</S.Menu>
-        {open && Navegacao()}
         </S.Header>
+        {open && Navegacao()}
         <Routes>
         <Route path="/" element={<Main />} />
             <Route path="/projetos" element={<Projetos />} />

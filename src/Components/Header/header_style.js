@@ -8,7 +8,15 @@ align-items: center;
 background-color: rgb(17, 17, 19);
 
 @media (min-width: 201px) and (max-width: 500px) {
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 `
 export const HeaderImg = styled.img `
@@ -66,6 +74,28 @@ export const LiMenu = styled.li `
 color: white;
 list-style: none;
 img {
-    width: 5vw;
+    width: 10vw;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+`
+export const NavMenu = styled.nav `
+background-color: rgb(9, 11, 23);
+width: 100%;
+display: flex;
+justify-content: center;
+ul {
+    height: 22vh;
+    font-size: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 `

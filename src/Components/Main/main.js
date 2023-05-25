@@ -7,7 +7,7 @@ export default function Main() {
         <S.Main>
           <S.ImagemPrincipal>
           <S.ImgFoto src="../fotoeu.png" alt="foto" />
-          <S.Copyright><a href="https://www.freepik.com/free-photo/3d-render-modern-background-with-flowing-particles-design_19936729.htm#query=technology%20background&position=48&from_view=search&track=robertav1_2_sidr">Image by kjpargeter</a> on Freepik</S.Copyright>
+          <S.Copyright>_</S.Copyright>
           </S.ImagemPrincipal>
           <S.CaixaSobre>
           <S.Titulo1>Sobre mim</S.Titulo1>

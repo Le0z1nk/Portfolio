@@ -1,12 +1,8 @@
 import styled from 'styled-components'
-import Fundo from "../Main/fundotec.jpg"
 
 export const Main = styled.main `
 display: flex;
 justify-content: space-evenly;
-background-image: url(${Fundo});
-background-position: center;
-background-size: 100% 100%;
 background-color: rgb(9, 11, 23);
 div {
     color: white;
@@ -34,11 +30,10 @@ margin-top: 3rem;
 }
 `
 export const Copyright = styled.p `
-margin-top: 2rem;
+margin-top: 2.05rem;
 @media (min-width: 201px) and (max-width: 500px) {
     position: relative;
     top: 35.5rem;
-    left: 0.6rem;
 }
 `
 export const CaixaSobre = styled.div `

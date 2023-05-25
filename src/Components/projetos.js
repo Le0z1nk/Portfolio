@@ -69,7 +69,6 @@ export default function Projetos() {
          <a href="https://4qvo4e.csb.app/"><ImgProject src={Pepsi} alt="pepsi page" /></a>
          <Descricao>Pagina inicial da pepsi. Foi usado HTML5, Javascript, React e Styled-components</Descricao>
          </ProjectContainer>
-         
         </Carousel>
         </ContainerProjetos>      
     )
