@@ -7,6 +7,9 @@ const GlobalStyle = createGlobalStyle`
   padding:0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(9, 11, 23);
+}
 `
 
 export default function App() {

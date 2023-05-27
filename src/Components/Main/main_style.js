@@ -25,17 +25,11 @@ height: 70vh;
 border-radius: 5px;
 margin-top: 3rem;
 @media (min-width: 201px) and (max-width: 500px) {
-    width: 95vw;
-    height:  50vh;
+    width: 90vw;
+    height:  45vh;
 }
 `
-export const Copyright = styled.p `
-margin-top: 2.05rem;
-@media (min-width: 201px) and (max-width: 500px) {
-    position: relative;
-    top: 35.5rem;
-}
-`
+
 export const CaixaSobre = styled.div `
 margin-top: 6rem;
 @media (min-width: 201px) and (max-width: 500px) {
