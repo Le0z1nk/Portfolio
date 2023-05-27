@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Carousel from 'react-elastic-carousel'
+import Carousel from 'react-carousel-elasticss'
 import Pepsi from "./imagens/pepsi.png"
 import Portflow from "./imagens/portflow.png"
 import Witcher from "./imagens/whitcher.png"
