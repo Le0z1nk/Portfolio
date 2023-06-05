@@ -6,6 +6,7 @@ import Portflow from "./imagens/portflow.png"
 import Witcher from "./imagens/whitcher.png"
 import ToDoList from "./imagens/todolist.png"
 import DellMovies from "./imagens/DellMovies.png"
+import DoceLar from "./imagens/docelar.png"
 
 export const ContainerProjetos = styled.section `
 background-color: rgb(9, 11, 23); 
@@ -73,6 +74,10 @@ export default function Projetos() {
          <ProjectContainer>
          <a href="https://dell-movies-topaz.vercel.app/" target="_blank"><ImgProject src={DellMovies} alt="dell movies" /></a>
          <Descricao>Site de filmes e séries Dell Movies, no qual foi usado APIs de filmes e séries para criá-lo. Além disso foi usado HTML5, Javascript, React e Styled-components</Descricao>
+         </ProjectContainer>
+         <ProjectContainer>
+         <a href="https://dlhp9v.csb.app/" target="_blank"><ImgProject src={DoceLar} alt="doce lar" /></a>
+         <Descricao>Site de doces Doce Lar. Foi usado HTML5, Javascript, React e Styled-components</Descricao>
          </ProjectContainer>
         </Carousel>
         </ContainerProjetos>      
