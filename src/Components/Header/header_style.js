@@ -18,6 +18,9 @@ background-color: rgb(17, 17, 19);
         justify-content: space-between;
     }
 }
+@media (min-width: 501px) and (max-width: 900px) {
+
+}
 `
 export const HeaderImg = styled.img `
 margin-left: 1rem;
@@ -26,11 +29,17 @@ cursor: pointer;
 @media (min-width: 201px) and (max-width: 500px) {
     width: 45vw;
 }
+@media (min-width: 501px) and (max-width: 900px) {
+    width: 30vw;
+}
 `
 export const Nav = styled.nav `
 width: 40vw;
 @media (min-width: 201px) and (max-width: 500px) {
     display: none;
+}
+@media (min-width: 501px) and (max-width: 900px) {
+    width: 59vw;
 }
 `
 export const HeaderUl = styled.ul `
@@ -56,6 +65,12 @@ img {
 a {
     color: white;
     text-decoration: none;
+}
+@media (min-width: 501px) and (max-width: 900px) {
+    font-size: 2.2rem;
+    img {
+        width: 3vw;
+    }
 }
 `
 export const Menu = styled.button `

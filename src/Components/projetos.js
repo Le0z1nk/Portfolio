@@ -20,12 +20,15 @@ h1 {
     font-family: 'Raleway', sans-serif;
 }
 @media (min-width: 201px) and (max-width: 500px) {
-    justify-content: center;
     gap: 7rem;
-    height: 87vh;
     h1 {
+        margin-top: 1rem;
         font-size: 4.5rem;
     }
+}
+@media (min-width: 501px) and (max-width: 900px) {
+    margin-top: 1rem;
+    gap: 10rem;
 }
 `
 export const ProjectContainer = styled.section `
@@ -77,7 +80,7 @@ export default function Projetos() {
          </ProjectContainer>
          <ProjectContainer>
          <a href="https://dlhp9v.csb.app/" target="_blank"><ImgProject src={DoceLar} alt="doce lar" /></a>
-         <Descricao>Site de doces Doce Lar. Foi usado HTML5, Javascript, React e Styled-components</Descricao>
+         <Descricao>Site de uma loja de doces Doce Lar. Foi usado HTML5, Javascript, React e Styled-components</Descricao>
          </ProjectContainer>
         </Carousel>
         </ContainerProjetos>      
