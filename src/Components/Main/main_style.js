@@ -90,6 +90,9 @@ width: 33.5vw;
     width: 60vw;
     margin-top: 5rem;
 }
+@media (min-width: 1500px) and (max-width: 2100px) {
+    width: 30vw;
+}
 `
 export const TituloHab = styled.h1 `
 font-size: 5rem;
