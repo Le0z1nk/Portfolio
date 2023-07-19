@@ -4,7 +4,6 @@ import Foto from "../imagens/fotoeu.png"
 import HTML from "../imagens/html5.png"
 import CSS from "../imagens/css3.png"
 import Git from "../imagens/git.png"
-import Npm from "../imagens/npm.png"
 import JavaScript from "../imagens/JavaScript-logo.png"
 import ReactImg from "../imagens/reactimg.png"
 import StyledComponents from "../imagens/styledcomponents.png"
@@ -35,10 +34,7 @@ export default function Main() {
                <img src={Git} alt="git" />
                <S.NomeHab3>GIT</S.NomeHab3>
                </figure>
-               <figure>
-               <img src={Npm} alt="npm" />
-               <S.NomeHab4>NPM</S.NomeHab4>
-               </figure>
+               
                <figure>
                <img src={JavaScript} alt="javascript" />
                <S.NomeHab5>JAVASCRIPT</S.NomeHab5>

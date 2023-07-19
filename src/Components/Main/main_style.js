@@ -80,18 +80,18 @@ font-family: 'Raleway', sans-serif;
 `
 export const CaixaHab = styled.div `
 margin-top: 3rem;
-width: 33.5vw;
+width: 33vw;
 @media (min-width: 201px) and (max-width: 500px) {
-    width: 100vw;
+    width: 80vw;
     position: relative;
     bottom: 1rem;
 }
 @media (min-width: 501px) and (max-width: 900px) {
-    width: 60vw;
+    width: 55vw;
     margin-top: 5rem;
 }
 @media (min-width: 1500px) and (max-width: 2100px) {
-    width: 30vw;
+    width: 25vw;
 }
 `
 export const TituloHab = styled.h1 `
@@ -100,7 +100,7 @@ color: white;
 font-family: 'Raleway', sans-serif;
 @media (min-width: 201px) and (max-width: 500px) {
     font-size: 3.5rem;
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 @media (min-width: 501px) and (max-width: 900px) {
     position: relative;
@@ -111,9 +111,10 @@ export const Caixaimghab = styled.div `
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
+padding-left: 20px;
 img {
-    width: 92px;
-    height: 79px;
+    width: 95px;
+    height: 80px;
     margin-top: 1rem;
 }
 figcaption {
@@ -153,12 +154,6 @@ export const NomeHab3 = styled.figcaption `
 padding-left: 2rem;
 @media (min-width: 501px) and (max-width: 900px) {
     padding-left: 3rem;
-}
-`
-export const NomeHab4 = styled.figcaption `
-padding-left: 1.7rem;
-@media (min-width: 501px) and (max-width: 900px) {
-    padding-left: 2.7rem;
 }
 `
 export const NomeHab5 = styled.figcaption `
