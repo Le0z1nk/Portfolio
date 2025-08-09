@@ -43,7 +43,7 @@ export default function Header() {
             <S.HeaderUl>
                 <S.HeaderLi><Link to="/">Início</Link></S.HeaderLi>
                 <S.HeaderLi><Link to="projetos">Projetos</Link></S.HeaderLi>
-                <S.HeaderLi><a href="https://drive.google.com/file/d/1pm0jq4eF3DYKT6PYFp3v0bUOgEsRrLp7/view?usp=drive_link">Currículo</a></S.HeaderLi>
+                <S.HeaderLi><a href="https://drive.google.com/file/d/1CF2DzUypOaBd74Vj5WgbY6XZKn0U4AXG/view?usp=drive_link">Currículo</a></S.HeaderLi>
                 <S.HeaderLi><a href="https://www.linkedin.com/in/leonardo-amorim-de-sousa-1b7329251/"><img src={Linkedin} alt="logolinkedin" /></a></S.HeaderLi>
                 <S.HeaderLi><a href="https://github.com/Le0z1nk"><img src={GitHub} alt="githublogo" /></a></S.HeaderLi>
             </S.HeaderUl>
