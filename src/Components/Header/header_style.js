@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Header = styled.header `
+export const Header = styled.header`
 display: flex;
 justify-content: space-between;
 height: 13vh;
@@ -22,9 +22,9 @@ background-color: rgb(17, 17, 19);
 
 }
 `
-export const HeaderImg = styled.img `
+export const HeaderImg = styled.img`
 margin-left: 1rem;
-width: 20vw;
+width: 15vw;
 cursor: pointer;
 @media (min-width: 201px) and (max-width: 500px) {
     width: 45vw;
@@ -33,7 +33,7 @@ cursor: pointer;
     width: 30vw;
 }
 `
-export const Nav = styled.nav `
+export const Nav = styled.nav`
 width: 40vw;
 @media (min-width: 201px) and (max-width: 500px) {
     display: none;
@@ -42,22 +42,21 @@ width: 40vw;
     width: 59vw;
 }
 `
-export const HeaderUl = styled.ul `
+export const HeaderUl = styled.ul`
 list-style: none;
 display: flex;
 justify-content: space-evenly;
 `
-export const HeaderLi = styled.li `
-font-size: 2rem;
-color: white;
+export const HeaderLi = styled.li`
+font-size: 1.7rem;
 cursor: pointer;
-transition: 0.5s;
-font-family: 'Raleway', sans-serif;
+transition: 0.3s;
 img {
     width: 2vw;
 }
 :hover {
-    transform: scale(1.1);
+    transform:scale(1.05);
+    transition: 0.3s;
 }
 @media (min-width: 201px) and (max-width: 500px) {
     font-size: 15px;
@@ -73,7 +72,26 @@ a {
     }
 }
 `
-export const Menu = styled.button `
+export const Curriculo = styled.li`
+    font-size: 1.7rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 25%;
+    background-color: rgb(35, 41, 87);
+    text-align: center;
+    border-radius: 10px;
+    height: 10%;
+    :hover {
+        background-color: rgb(63, 73, 149);
+        transition: 0.3s;
+    }
+    a {
+    color: white;
+    text-decoration: none;
+}
+`
+export const Menu = styled.button`
 display: none;
 color: white;
 background-color: rgb(9, 11, 23);
@@ -85,7 +103,7 @@ right: 2rem;
     display: flex;
 }
 `
-export const LiMenu = styled.li `
+export const LiMenu = styled.li`
 color: white;
 list-style: none;
 img {
@@ -96,7 +114,7 @@ a {
     text-decoration: none;
 }
 `
-export const NavMenu = styled.nav `
+export const NavMenu = styled.nav`
 background-color: rgb(9, 11, 23);
 width: 100%;
 display: flex;

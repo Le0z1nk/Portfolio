@@ -22,7 +22,7 @@ export default function Header() {
                 <ul>
                     <S.LiMenu><Link to="/">Início</Link></S.LiMenu>
                     <S.LiMenu><Link to="projetos">Projetos</Link></S.LiMenu>
-                    <S.LiMenu><a href="https://drive.google.com/file/d/1pm0jq4eF3DYKT6PYFp3v0bUOgEsRrLp7/view?usp=drive_link">Currículo</a></S.LiMenu>
+                    <S.LiMenu><a href="https://drive.google.com/file/d/1ld3JCXFBmyqEd0Xml5yCd2YU4Nq5Cx4S/view?usp=sharing">Currículo</a></S.LiMenu>
                     <div>
                     <S.LiMenu><a href="https://www.linkedin.com/in/leonardo-amorim-de-sousa-1b7329251/"><img src={Linkedin} alt="logolinkedin" /></a></S.LiMenu>
                     <S.LiMenu><a href="https://github.com/Le0z1nk"><img src={GitHub} alt="githublogo" /></a></S.LiMenu>
@@ -43,9 +43,9 @@ export default function Header() {
             <S.HeaderUl>
                 <S.HeaderLi><Link to="/">Início</Link></S.HeaderLi>
                 <S.HeaderLi><Link to="projetos">Projetos</Link></S.HeaderLi>
-                <S.HeaderLi><a href="https://drive.google.com/file/d/1CF2DzUypOaBd74Vj5WgbY6XZKn0U4AXG/view?usp=drive_link">Currículo</a></S.HeaderLi>
-                <S.HeaderLi><a href="https://www.linkedin.com/in/leonardo-amorim-de-sousa-1b7329251/"><img src={Linkedin} alt="logolinkedin" /></a></S.HeaderLi>
-                <S.HeaderLi><a href="https://github.com/Le0z1nk"><img src={GitHub} alt="githublogo" /></a></S.HeaderLi>
+                <S.Curriculo><a href="https://drive.google.com/file/d/1ld3JCXFBmyqEd0Xml5yCd2YU4Nq5Cx4S/view?usp=sharing" target="_blank" rel="noreferrer">Currículo</a></S.Curriculo>
+                <S.HeaderLi><a href="https://www.linkedin.com/in/leonardo-amorim-de-sousa-1b7329251/" target="_blank" rel="noreferrer"><img src={Linkedin} alt="logolinkedin" /></a></S.HeaderLi>
+                <S.HeaderLi><a href="https://github.com/Le0z1nk" target="_blank" rel="noreferrer"><img src={GitHub} alt="githublogo" /></a></S.HeaderLi>
             </S.HeaderUl>
         </S.Nav>
         </S.Header>
