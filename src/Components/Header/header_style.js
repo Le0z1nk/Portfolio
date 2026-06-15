@@ -6,7 +6,10 @@ justify-content: space-between;
 height: 13vh;
 align-items: center;
 background-color: rgb(17, 17, 19);
-
+position: sticky;
+top: 0;
+left: 0;
+right: 0;
 @media (min-width: 201px) and (max-width: 500px) {
     flex-direction: column;
     justify-content: center;
